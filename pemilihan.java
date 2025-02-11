@@ -59,9 +59,9 @@ public class pemilihan {
             System.out.print("Do you wanna input grades again(Yes/No)?");
             choose = sc.nextLine();
             if (choose.equalsIgnoreCase("Yes")) {
-                break;
-            } else if (choose.equalsIgnoreCase("No")) {
                 continue;
+            } else if (choose.equalsIgnoreCase("No")) {
+                break;
             } else {
                 System.out.println("Your choice is invalid");
             }

@@ -47,6 +47,6 @@ public class array {
             System.out.printf("%-40s %-15s %-15s %-12s%n", matkul[k], nilaiAngka[k], nilaiHuruf[k], nilaiSetara[k]);
         }
         System.out.println("=============================================");
-        System.out.println(ipSemester);
+        System.out.println("IP: "+ipSemester);
     }
 }
